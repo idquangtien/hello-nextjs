@@ -25,6 +25,6 @@
   "license": "ISC",
   "devDependencies": {
     "miragejs": "^0.1.45",
-    "sass": "^1.56.0"
+    "sass": "^1.56.1"
   }
 }
