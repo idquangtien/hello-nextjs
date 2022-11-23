@@ -1,5 +1,19 @@
 {
+  "/Blue": "pages/Blue.js",
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
+  "/callAPI": "pages/callAPI.js",
+  "/callAPI/suspense": "pages/callAPI/suspense.js",
+  "/card": "pages/card.js",
+  "/home": "pages/home.js",
+  "/": "pages/index.js",
+  "/info": "pages/info.js",
+  "/login": "pages/login.js",
+  "/red": "pages/red.js",
+  "/register": "pages/register.js",
+  "/term-deposit": "pages/term-deposit.js",
+  "/todo": "pages/todo.js",
+  "/users": "pages/users.js",
+  "/validate-form": "pages/validate-form.js",
   "/_error": "pages/_error.js"
 }

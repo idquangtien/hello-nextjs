@@ -1,167 +1,265 @@
 "use strict";
-/*
- * ATTENTION: An "eval-source-map" devtool has been used.
- * This devtool is neither made for production nor for readable output files.
- * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
- * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
- * or disable the default devtool with "devtool: false".
- * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
- */
 (() => {
 var exports = {};
-exports.id = "pages/term-deposit";
-exports.ids = ["pages/term-deposit"];
+exports.id = 81;
+exports.ids = [81];
 exports.modules = {
 
-/***/ "./components/term-deposit/Suggestion.jsx":
-/*!************************************************!*\
-  !*** ./components/term-deposit/Suggestion.jsx ***!
-  \************************************************/
+/***/ 908:
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__) => {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-redux */ \"react-redux\");\n/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_redux__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _redux_slicer_termDepositSlicer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../redux/slicer/termDepositSlicer */ \"./redux/slicer/termDepositSlicer.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__);\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_redux_slicer_termDepositSlicer__WEBPACK_IMPORTED_MODULE_2__]);\n_redux_slicer_termDepositSlicer__WEBPACK_IMPORTED_MODULE_2__ = (__webpack_async_dependencies__.then ? await __webpack_async_dependencies__ : __webpack_async_dependencies__)[0];\nvar _jsxFileName = \"D:\\\\learn\\\\hello-nextjs\\\\components\\\\term-deposit\\\\Suggestion.jsx\";\n\n\n\n\n\nfunction Suggestion() {\n  const dispatch = (0,react_redux__WEBPACK_IMPORTED_MODULE_1__.useDispatch)();\n  const amount = (0,react_redux__WEBPACK_IMPORTED_MODULE_1__.useSelector)(state => state.termDeposit.data.savingInfo.amount);\n\n  const handleChange = value => {\n    dispatch(_redux_slicer_termDepositSlicer__WEBPACK_IMPORTED_MODULE_2__[\"default\"].actions.updateAmount(value));\n  };\n\n  return /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxDEV)(\"div\", {\n    children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxDEV)(\"div\", {\n      className: \"row gap-4px\",\n      children: [100, 300, 500].map(item => {\n        return /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxDEV)(\"div\", {\n          className: \"col-4\",\n          children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxDEV)(\"label\", {\n            className: \"check-btn grow-1\",\n            children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxDEV)(\"input\", {\n              type: \"radio\",\n              name: \"amount\",\n              value: item,\n              checked: +amount === +item,\n              onChange: e => handleChange(e.target.value)\n            }, void 0, false, {\n              fileName: _jsxFileName,\n              lineNumber: 20,\n              columnNumber: 37\n            }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxDEV)(\"div\", {\n              className: \"centered h-40px border\",\n              children: item\n            }, void 0, false, {\n              fileName: _jsxFileName,\n              lineNumber: 27,\n              columnNumber: 37\n            }, this)]\n          }, void 0, true, {\n            fileName: _jsxFileName,\n            lineNumber: 19,\n            columnNumber: 33\n          }, this)\n        }, item, false, {\n          fileName: _jsxFileName,\n          lineNumber: 18,\n          columnNumber: 29\n        }, this);\n      })\n    }, void 0, false, {\n      fileName: _jsxFileName,\n      lineNumber: 14,\n      columnNumber: 13\n    }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxDEV)(\"div\", {\n      className: \"mt-8px\",\n      children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxDEV)(\"input\", {\n        type: \"number\",\n        placeholder: \"nh\\u1EADp s\\u1ED1 ti\\u1EC1n\",\n        className: \"form-control\",\n        value: amount,\n        onChange: e => handleChange(e.target.value)\n      }, void 0, false, {\n        fileName: _jsxFileName,\n        lineNumber: 35,\n        columnNumber: 17\n      }, this)\n    }, void 0, false, {\n      fileName: _jsxFileName,\n      lineNumber: 34,\n      columnNumber: 13\n    }, this)]\n  }, void 0, true, {\n    fileName: _jsxFileName,\n    lineNumber: 13,\n    columnNumber: 9\n  }, this);\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Suggestion);\n});//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL3Rlcm0tZGVwb3NpdC9TdWdnZXN0aW9uLmpzeC5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7QUFBQTtBQUNBO0FBQ0E7OztBQUVBLFNBQVNJLFVBQVQsR0FBc0I7QUFDbEIsUUFBTUMsUUFBUSxHQUFHSix3REFBVyxFQUE1QjtBQUNBLFFBQU1LLE1BQU0sR0FBR0osd0RBQVcsQ0FBQ0ssS0FBSyxJQUFJQSxLQUFLLENBQUNDLFdBQU4sQ0FBa0JDLElBQWxCLENBQXVCQyxVQUF2QixDQUFrQ0osTUFBNUMsQ0FBMUI7O0FBRUEsUUFBTUssWUFBWSxHQUFJQyxLQUFELElBQVc7QUFDNUJQLElBQUFBLFFBQVEsQ0FBQ0YsNEZBQUEsQ0FBNEJTLEtBQTVCLENBQUQsQ0FBUjtBQUNILEdBRkQ7O0FBR0Esc0JBQ0k7QUFBQSw0QkFDSTtBQUFLLGVBQVMsRUFBQyxhQUFmO0FBQUEsZ0JBRVEsQ0FBQyxHQUFELEVBQU0sR0FBTixFQUFXLEdBQVgsRUFBZ0JHLEdBQWhCLENBQW9CQyxJQUFJLElBQUk7QUFDeEIsNEJBQ0k7QUFBSyxtQkFBUyxFQUFDLE9BQWY7QUFBQSxpQ0FDSTtBQUFPLHFCQUFTLEVBQUMsa0JBQWpCO0FBQUEsb0NBQ0k7QUFDSSxrQkFBSSxFQUFDLE9BRFQ7QUFFSSxrQkFBSSxFQUFDLFFBRlQ7QUFHSSxtQkFBSyxFQUFFQSxJQUhYO0FBSUkscUJBQU8sRUFBRSxDQUFDVixNQUFELEtBQVksQ0FBQ1UsSUFKMUI7QUFLSSxzQkFBUSxFQUFHQyxDQUFELElBQU9OLFlBQVksQ0FBQ00sQ0FBQyxDQUFDQyxNQUFGLENBQVNOLEtBQVY7QUFMakM7QUFBQTtBQUFBO0FBQUE7QUFBQSxvQkFESixlQVFJO0FBQUssdUJBQVMsRUFBQyx3QkFBZjtBQUFBLHdCQUF5Q0k7QUFBekM7QUFBQTtBQUFBO0FBQUE7QUFBQSxvQkFSSjtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFESixXQUE0QkEsSUFBNUI7QUFBQTtBQUFBO0FBQUE7QUFBQSxnQkFESjtBQWNILE9BZkQ7QUFGUjtBQUFBO0FBQUE7QUFBQTtBQUFBLFlBREosZUFxQkk7QUFBSyxlQUFTLEVBQUMsUUFBZjtBQUFBLDZCQUNJO0FBQ0ksWUFBSSxFQUFDLFFBRFQ7QUFFSSxtQkFBVyxFQUFDLDZCQUZoQjtBQUdJLGlCQUFTLEVBQUMsY0FIZDtBQUlJLGFBQUssRUFBRVYsTUFKWDtBQUtJLGdCQUFRLEVBQUdXLENBQUQsSUFBT04sWUFBWSxDQUFDTSxDQUFDLENBQUNDLE1BQUYsQ0FBU04sS0FBVjtBQUxqQztBQUFBO0FBQUE7QUFBQTtBQUFBO0FBREo7QUFBQTtBQUFBO0FBQUE7QUFBQSxZQXJCSjtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsVUFESjtBQWlDSDs7QUFFRCxpRUFBZVIsVUFBZixFIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vaGVsbG8tbmV4dC8uL2NvbXBvbmVudHMvdGVybS1kZXBvc2l0L1N1Z2dlc3Rpb24uanN4PzNiY2QiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JztcclxuaW1wb3J0IHsgdXNlRGlzcGF0Y2gsIHVzZVNlbGVjdG9yIH0gZnJvbSAncmVhY3QtcmVkdXgnO1xyXG5pbXBvcnQgc2xpY2VyIGZyb20gJy4uLy4uL3JlZHV4L3NsaWNlci90ZXJtRGVwb3NpdFNsaWNlcic7XHJcblxyXG5mdW5jdGlvbiBTdWdnZXN0aW9uKCkge1xyXG4gICAgY29uc3QgZGlzcGF0Y2ggPSB1c2VEaXNwYXRjaCgpO1xyXG4gICAgY29uc3QgYW1vdW50ID0gdXNlU2VsZWN0b3Ioc3RhdGUgPT4gc3RhdGUudGVybURlcG9zaXQuZGF0YS5zYXZpbmdJbmZvLmFtb3VudCk7XHJcblxyXG4gICAgY29uc3QgaGFuZGxlQ2hhbmdlID0gKHZhbHVlKSA9PiB7XHJcbiAgICAgICAgZGlzcGF0Y2goc2xpY2VyLmFjdGlvbnMudXBkYXRlQW1vdW50KHZhbHVlKSlcclxuICAgIH1cclxuICAgIHJldHVybiAoXHJcbiAgICAgICAgPGRpdj5cclxuICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9J3JvdyBnYXAtNHB4Jz5cclxuICAgICAgICAgICAgICAgIHtcclxuICAgICAgICAgICAgICAgICAgICBbMTAwLCAzMDAsIDUwMF0ubWFwKGl0ZW0gPT4ge1xyXG4gICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gKFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJjb2wtNFwiIGtleT17aXRlbX0+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGxhYmVsIGNsYXNzTmFtZT0nY2hlY2stYnRuIGdyb3ctMScgPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8aW5wdXRcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHR5cGU9J3JhZGlvJ1xyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbmFtZT0nYW1vdW50J1xyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsdWU9e2l0ZW19XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjaGVja2VkPXsrYW1vdW50ID09PSAraXRlbX1cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2hhbmdlPXsoZSkgPT4gaGFuZGxlQ2hhbmdlKGUudGFyZ2V0LnZhbHVlKX1cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLz5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9J2NlbnRlcmVkIGgtNDBweCBib3JkZXInPntpdGVtfTwvZGl2PlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvbGFiZWw+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICAgICAgICAgICAgICAgICAgKVxyXG4gICAgICAgICAgICAgICAgICAgIH0pXHJcbiAgICAgICAgICAgICAgICB9XHJcbiAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0nbXQtOHB4Jz5cclxuICAgICAgICAgICAgICAgIDxpbnB1dFxyXG4gICAgICAgICAgICAgICAgICAgIHR5cGU9J251bWJlcidcclxuICAgICAgICAgICAgICAgICAgICBwbGFjZWhvbGRlcj0nbmjhuq1wIHPhu5EgdGnhu4FuJ1xyXG4gICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0nZm9ybS1jb250cm9sJ1xyXG4gICAgICAgICAgICAgICAgICAgIHZhbHVlPXthbW91bnR9XHJcbiAgICAgICAgICAgICAgICAgICAgb25DaGFuZ2U9eyhlKSA9PiBoYW5kbGVDaGFuZ2UoZS50YXJnZXQudmFsdWUpfVxyXG4gICAgICAgICAgICAgICAgLz5cclxuICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgPC9kaXY+XHJcbiAgICApO1xyXG59XHJcblxyXG5leHBvcnQgZGVmYXVsdCBTdWdnZXN0aW9uOyJdLCJuYW1lcyI6WyJSZWFjdCIsInVzZURpc3BhdGNoIiwidXNlU2VsZWN0b3IiLCJzbGljZXIiLCJTdWdnZXN0aW9uIiwiZGlzcGF0Y2giLCJhbW91bnQiLCJzdGF0ZSIsInRlcm1EZXBvc2l0IiwiZGF0YSIsInNhdmluZ0luZm8iLCJoYW5kbGVDaGFuZ2UiLCJ2YWx1ZSIsImFjdGlvbnMiLCJ1cGRhdGVBbW91bnQiLCJtYXAiLCJpdGVtIiwiZSIsInRhcmdldCJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./components/term-deposit/Suggestion.jsx\n");
+__webpack_require__.a(module, async (__webpack_handle_async_dependencies__) => {
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6689);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6022);
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_redux__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _redux_slicer_termDepositSlicer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(3862);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(997);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__);
+var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_redux_slicer_termDepositSlicer__WEBPACK_IMPORTED_MODULE_2__]);
+_redux_slicer_termDepositSlicer__WEBPACK_IMPORTED_MODULE_2__ = (__webpack_async_dependencies__.then ? await __webpack_async_dependencies__ : __webpack_async_dependencies__)[0];
+
+
+
+
+
+
+function Suggestion() {
+  const dispatch = (0,react_redux__WEBPACK_IMPORTED_MODULE_1__.useDispatch)();
+  const amount = (0,react_redux__WEBPACK_IMPORTED_MODULE_1__.useSelector)(state => state.termDeposit.data.savingInfo.amount);
+
+  const handleChange = value => {
+    dispatch(_redux_slicer_termDepositSlicer__WEBPACK_IMPORTED_MODULE_2__/* ["default"].actions.updateAmount */ .Z.actions.updateAmount(value));
+  };
+
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+    children: [/*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx("div", {
+      className: "row gap-4px",
+      children: [100, 300, 500].map(item => {
+        return /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx("div", {
+          className: "col-4",
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("label", {
+            className: "check-btn grow-1",
+            children: [/*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx("input", {
+              type: "radio",
+              name: "amount",
+              value: item,
+              checked: +amount === +item,
+              onChange: e => handleChange(e.target.value)
+            }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx("div", {
+              className: "centered h-40px border",
+              children: item
+            })]
+          })
+        }, item);
+      })
+    }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx("div", {
+      className: "mt-8px",
+      children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx("input", {
+        type: "number",
+        placeholder: "nh\u1EADp s\u1ED1 ti\u1EC1n",
+        className: "form-control",
+        value: amount,
+        onChange: e => handleChange(e.target.value)
+      })
+    })]
+  });
+}
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Suggestion);
+});
 
 /***/ }),
 
-/***/ "./components/term-deposit/Terms.jsx":
-/*!*******************************************!*\
-  !*** ./components/term-deposit/Terms.jsx ***!
-  \*******************************************/
+/***/ 244:
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__) => {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-redux */ \"react-redux\");\n/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_redux__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _redux_slicer_termDepositSlicer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../redux/slicer/termDepositSlicer */ \"./redux/slicer/termDepositSlicer.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__);\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_redux_slicer_termDepositSlicer__WEBPACK_IMPORTED_MODULE_2__]);\n_redux_slicer_termDepositSlicer__WEBPACK_IMPORTED_MODULE_2__ = (__webpack_async_dependencies__.then ? await __webpack_async_dependencies__ : __webpack_async_dependencies__)[0];\nvar _jsxFileName = \"D:\\\\learn\\\\hello-nextjs\\\\components\\\\term-deposit\\\\Terms.jsx\";\n\n\n\n\n\nconst Terms = () => {\n  const dispatch = (0,react_redux__WEBPACK_IMPORTED_MODULE_1__.useDispatch)();\n  const term = (0,react_redux__WEBPACK_IMPORTED_MODULE_1__.useSelector)(state => state.termDeposit.data.savingInfo.term);\n\n  const handleCheck = value => {\n    dispatch(_redux_slicer_termDepositSlicer__WEBPACK_IMPORTED_MODULE_2__[\"default\"].actions.updateTerm(value));\n  };\n\n  return /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxDEV)(\"div\", {\n    children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxDEV)(\"div\", {\n      className: \"row gap-4px\",\n      children: [\"1M\", \"3M\", \"6M\", \"12M\", \"13M\"].map((item, index) => {\n        return /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxDEV)(\"div\", {\n          className: \"col flex-1\",\n          children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxDEV)(\"label\", {\n            className: \"check-btn\",\n            children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxDEV)(\"input\", {\n              type: \"radio\",\n              name: \"term\",\n              value: item,\n              checked: term === item,\n              onChange: e => handleCheck(e.target.value)\n            }, void 0, false, {\n              fileName: _jsxFileName,\n              lineNumber: 19,\n              columnNumber: 37\n            }, undefined), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxDEV)(\"div\", {\n              className: \"centered h-40px border\",\n              children: item\n            }, void 0, false, {\n              fileName: _jsxFileName,\n              lineNumber: 26,\n              columnNumber: 37\n            }, undefined)]\n          }, void 0, true, {\n            fileName: _jsxFileName,\n            lineNumber: 18,\n            columnNumber: 33\n          }, undefined)\n        }, index, false, {\n          fileName: _jsxFileName,\n          lineNumber: 17,\n          columnNumber: 29\n        }, undefined);\n      })\n    }, void 0, false, {\n      fileName: _jsxFileName,\n      lineNumber: 13,\n      columnNumber: 13\n    }, undefined), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxDEV)(\"div\", {\n      className: \"mt-8px\"\n    }, void 0, false, {\n      fileName: _jsxFileName,\n      lineNumber: 33,\n      columnNumber: 13\n    }, undefined)]\n  }, void 0, true, {\n    fileName: _jsxFileName,\n    lineNumber: 12,\n    columnNumber: 9\n  }, undefined);\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Terms);\n});//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL3Rlcm0tZGVwb3NpdC9UZXJtcy5qc3guanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7O0FBQUE7QUFDQTtBQUNBOzs7QUFFQSxNQUFNSSxLQUFLLEdBQUcsTUFBTTtBQUNoQixRQUFNQyxRQUFRLEdBQUdKLHdEQUFXLEVBQTVCO0FBQ0EsUUFBTUssSUFBSSxHQUFHSix3REFBVyxDQUFDSyxLQUFLLElBQUlBLEtBQUssQ0FBQ0MsV0FBTixDQUFrQkMsSUFBbEIsQ0FBdUJDLFVBQXZCLENBQWtDSixJQUE1QyxDQUF4Qjs7QUFDQSxRQUFNSyxXQUFXLEdBQUlDLEtBQUQsSUFBVztBQUMzQlAsSUFBQUEsUUFBUSxDQUFDRiwwRkFBQSxDQUEwQlMsS0FBMUIsQ0FBRCxDQUFSO0FBQ0gsR0FGRDs7QUFHQSxzQkFDSTtBQUFBLDRCQUNJO0FBQUssZUFBUyxFQUFDLGFBQWY7QUFBQSxnQkFFUSxDQUFDLElBQUQsRUFBTyxJQUFQLEVBQWEsSUFBYixFQUFtQixLQUFuQixFQUEwQixLQUExQixFQUFpQ0csR0FBakMsQ0FBcUMsQ0FBQ0MsSUFBRCxFQUFPQyxLQUFQLEtBQWlCO0FBQ2xELDRCQUNJO0FBQUssbUJBQVMsRUFBQyxZQUFmO0FBQUEsaUNBQ0k7QUFBTyxxQkFBUyxFQUFDLFdBQWpCO0FBQUEsb0NBQ0k7QUFDSSxrQkFBSSxFQUFDLE9BRFQ7QUFFSSxrQkFBSSxFQUFDLE1BRlQ7QUFHSSxtQkFBSyxFQUFFRCxJQUhYO0FBSUkscUJBQU8sRUFBRVYsSUFBSSxLQUFLVSxJQUp0QjtBQUtJLHNCQUFRLEVBQUdFLENBQUQsSUFBT1AsV0FBVyxDQUFDTyxDQUFDLENBQUNDLE1BQUYsQ0FBU1AsS0FBVjtBQUxoQztBQUFBO0FBQUE7QUFBQTtBQUFBLHlCQURKLGVBUUk7QUFBSyx1QkFBUyxFQUFDLHdCQUFmO0FBQUEsd0JBQXlDSTtBQUF6QztBQUFBO0FBQUE7QUFBQTtBQUFBLHlCQVJKO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQURKLFdBQWlDQyxLQUFqQztBQUFBO0FBQUE7QUFBQTtBQUFBLHFCQURKO0FBY0gsT0FmRDtBQUZSO0FBQUE7QUFBQTtBQUFBO0FBQUEsaUJBREosZUFxQkk7QUFBSyxlQUFTLEVBQUM7QUFBZjtBQUFBO0FBQUE7QUFBQTtBQUFBLGlCQXJCSjtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsZUFESjtBQTJCSCxDQWpDRDs7QUFtQ0EsaUVBQWViLEtBQWYsRSIsInNvdXJjZXMiOlsid2VicGFjazovL2hlbGxvLW5leHQvLi9jb21wb25lbnRzL3Rlcm0tZGVwb3NpdC9UZXJtcy5qc3g/YTI0NSJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnO1xyXG5pbXBvcnQgeyB1c2VEaXNwYXRjaCwgdXNlU2VsZWN0b3IgfSBmcm9tICdyZWFjdC1yZWR1eCc7XHJcbmltcG9ydCBzbGljZXIgZnJvbSAnLi4vLi4vcmVkdXgvc2xpY2VyL3Rlcm1EZXBvc2l0U2xpY2VyJztcclxuXHJcbmNvbnN0IFRlcm1zID0gKCkgPT4ge1xyXG4gICAgY29uc3QgZGlzcGF0Y2ggPSB1c2VEaXNwYXRjaCgpO1xyXG4gICAgY29uc3QgdGVybSA9IHVzZVNlbGVjdG9yKHN0YXRlID0+IHN0YXRlLnRlcm1EZXBvc2l0LmRhdGEuc2F2aW5nSW5mby50ZXJtKTtcclxuICAgIGNvbnN0IGhhbmRsZUNoZWNrID0gKHZhbHVlKSA9PiB7XHJcbiAgICAgICAgZGlzcGF0Y2goc2xpY2VyLmFjdGlvbnMudXBkYXRlVGVybSh2YWx1ZSkpXHJcbiAgICB9XHJcbiAgICByZXR1cm4gKFxyXG4gICAgICAgIDxkaXY+XHJcbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSdyb3cgZ2FwLTRweCc+XHJcbiAgICAgICAgICAgICAgICB7XHJcbiAgICAgICAgICAgICAgICAgICAgW1wiMU1cIiwgXCIzTVwiLCBcIjZNXCIsIFwiMTJNXCIsIFwiMTNNXCJdLm1hcCgoaXRlbSwgaW5kZXgpID0+IHtcclxuICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIChcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY29sIGZsZXgtMVwiIGtleT17aW5kZXh9PlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsYWJlbCBjbGFzc05hbWU9J2NoZWNrLWJ0bicgPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8aW5wdXRcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHR5cGU9J3JhZGlvJ1xyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbmFtZT0ndGVybSdcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbHVlPXtpdGVtfVxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY2hlY2tlZD17dGVybSA9PT0gaXRlbX1cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2hhbmdlPXsoZSkgPT4gaGFuZGxlQ2hlY2soZS50YXJnZXQudmFsdWUpfVxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAvPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0nY2VudGVyZWQgaC00MHB4IGJvcmRlcic+e2l0ZW19PC9kaXY+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9sYWJlbD5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgICAgICAgICAgICAgICApXHJcbiAgICAgICAgICAgICAgICAgICAgfSlcclxuICAgICAgICAgICAgICAgIH1cclxuICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSdtdC04cHgnPlxyXG4gICAgICAgICAgICAgICAgXHJcbiAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgIDwvZGl2PlxyXG4gICAgKTtcclxufTtcclxuXHJcbmV4cG9ydCBkZWZhdWx0IFRlcm1zOyJdLCJuYW1lcyI6WyJSZWFjdCIsInVzZURpc3BhdGNoIiwidXNlU2VsZWN0b3IiLCJzbGljZXIiLCJUZXJtcyIsImRpc3BhdGNoIiwidGVybSIsInN0YXRlIiwidGVybURlcG9zaXQiLCJkYXRhIiwic2F2aW5nSW5mbyIsImhhbmRsZUNoZWNrIiwidmFsdWUiLCJhY3Rpb25zIiwidXBkYXRlVGVybSIsIm1hcCIsIml0ZW0iLCJpbmRleCIsImUiLCJ0YXJnZXQiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./components/term-deposit/Terms.jsx\n");
+__webpack_require__.a(module, async (__webpack_handle_async_dependencies__) => {
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6689);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6022);
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_redux__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _redux_slicer_termDepositSlicer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(3862);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(997);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__);
+var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_redux_slicer_termDepositSlicer__WEBPACK_IMPORTED_MODULE_2__]);
+_redux_slicer_termDepositSlicer__WEBPACK_IMPORTED_MODULE_2__ = (__webpack_async_dependencies__.then ? await __webpack_async_dependencies__ : __webpack_async_dependencies__)[0];
+
+
+
+
+
+
+const Terms = () => {
+  const dispatch = (0,react_redux__WEBPACK_IMPORTED_MODULE_1__.useDispatch)();
+  const term = (0,react_redux__WEBPACK_IMPORTED_MODULE_1__.useSelector)(state => state.termDeposit.data.savingInfo.term);
+
+  const handleCheck = value => {
+    dispatch(_redux_slicer_termDepositSlicer__WEBPACK_IMPORTED_MODULE_2__/* ["default"].actions.updateTerm */ .Z.actions.updateTerm(value));
+  };
+
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+    children: [/*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx("div", {
+      className: "row gap-4px",
+      children: ["1M", "3M", "6M", "12M", "13M"].map((item, index) => {
+        return /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx("div", {
+          className: "col flex-1",
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("label", {
+            className: "check-btn",
+            children: [/*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx("input", {
+              type: "radio",
+              name: "term",
+              value: item,
+              checked: term === item,
+              onChange: e => handleCheck(e.target.value)
+            }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx("div", {
+              className: "centered h-40px border",
+              children: item
+            })]
+          })
+        }, index);
+      })
+    }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx("div", {
+      className: "mt-8px"
+    })]
+  });
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Terms);
+});
 
 /***/ }),
 
-/***/ "./core/Layout/PrimaryLayout/Footer.jsx":
-/*!**********************************************!*\
-  !*** ./core/Layout/PrimaryLayout/Footer.jsx ***!
-  \**********************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ 9876:
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__);\nvar _jsxFileName = \"D:\\\\learn\\\\hello-nextjs\\\\core\\\\Layout\\\\PrimaryLayout\\\\Footer.jsx\";\n\n\n\nconst Footer = () => {\n  return /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxDEV)(\"div\", {\n    children: \"Footer\"\n  }, void 0, false, {\n    fileName: _jsxFileName,\n    lineNumber: 5,\n    columnNumber: 9\n  }, undefined);\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Footer);//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb3JlL0xheW91dC9QcmltYXJ5TGF5b3V0L0Zvb3Rlci5qc3guanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7O0FBQUE7OztBQUVBLE1BQU1DLE1BQU0sR0FBRyxNQUFNO0FBQ2pCLHNCQUNJO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLGVBREo7QUFLSCxDQU5EOztBQVFBLGlFQUFlQSxNQUFmIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vaGVsbG8tbmV4dC8uL2NvcmUvTGF5b3V0L1ByaW1hcnlMYXlvdXQvRm9vdGVyLmpzeD9iZjJhIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7XHJcblxyXG5jb25zdCBGb290ZXIgPSAoKSA9PiB7XHJcbiAgICByZXR1cm4gKFxyXG4gICAgICAgIDxkaXY+XHJcbiAgICAgICAgICAgIEZvb3RlclxyXG4gICAgICAgIDwvZGl2PlxyXG4gICAgKTtcclxufTtcclxuXHJcbmV4cG9ydCBkZWZhdWx0IEZvb3RlcjsiXSwibmFtZXMiOlsiUmVhY3QiLCJGb290ZXIiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./core/Layout/PrimaryLayout/Footer.jsx\n");
+__webpack_require__.a(module, async (__webpack_handle_async_dependencies__) => {
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(9648);
+var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([axios__WEBPACK_IMPORTED_MODULE_0__]);
+axios__WEBPACK_IMPORTED_MODULE_0__ = (__webpack_async_dependencies__.then ? await __webpack_async_dependencies__ : __webpack_async_dependencies__)[0];
+ // const url = process.env.REACT_APP_API_URL + '/api/';
 
-/***/ }),
-
-/***/ "./core/Layout/PrimaryLayout/Header.jsx":
-/*!**********************************************!*\
-  !*** ./core/Layout/PrimaryLayout/Header.jsx ***!
-  \**********************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__);\nvar _jsxFileName = \"D:\\\\learn\\\\hello-nextjs\\\\core\\\\Layout\\\\PrimaryLayout\\\\Header.jsx\";\n\n\n\nconst Header = () => {\n  return /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxDEV)(\"header\", {\n    className: \"\",\n    children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxDEV)(\"div\", {\n      className: \"container\",\n      children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxDEV)(\"div\", {\n        className: \"d-flex align-items-center h-80px\",\n        children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxDEV)(\"div\", {\n          className: \"mr-auto\",\n          children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxDEV)(\"i\", {\n            className: \"material-icons-outlined\",\n            children: \"menu\"\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 9,\n            columnNumber: 25\n          }, undefined)\n        }, void 0, false, {\n          fileName: _jsxFileName,\n          lineNumber: 8,\n          columnNumber: 21\n        }, undefined), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxDEV)(\"div\", {\n          className: \"tc\",\n          children: \"Logo\"\n        }, void 0, false, {\n          fileName: _jsxFileName,\n          lineNumber: 11,\n          columnNumber: 21\n        }, undefined), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxDEV)(\"div\", {\n          className: \"ml-auto\",\n          children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxDEV)(\"i\", {\n            className: \"material-icons-outlined\",\n            children: \"more_vert\"\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 13,\n            columnNumber: 25\n          }, undefined)\n        }, void 0, false, {\n          fileName: _jsxFileName,\n          lineNumber: 12,\n          columnNumber: 21\n        }, undefined)]\n      }, void 0, true, {\n        fileName: _jsxFileName,\n        lineNumber: 7,\n        columnNumber: 17\n      }, undefined)\n    }, void 0, false, {\n      fileName: _jsxFileName,\n      lineNumber: 6,\n      columnNumber: 13\n    }, undefined)\n  }, void 0, false, {\n    fileName: _jsxFileName,\n    lineNumber: 5,\n    columnNumber: 9\n  }, undefined);\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Header);//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb3JlL0xheW91dC9QcmltYXJ5TGF5b3V0L0hlYWRlci5qc3guanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7O0FBQUE7OztBQUVBLE1BQU1DLE1BQU0sR0FBRyxNQUFNO0FBQ2pCLHNCQUNJO0FBQVEsYUFBUyxFQUFDLEVBQWxCO0FBQUEsMkJBQ0k7QUFBSyxlQUFTLEVBQUMsV0FBZjtBQUFBLDZCQUNJO0FBQUssaUJBQVMsRUFBQyxrQ0FBZjtBQUFBLGdDQUNJO0FBQUssbUJBQVMsRUFBQyxTQUFmO0FBQUEsaUNBQ0k7QUFBRyxxQkFBUyxFQUFDLHlCQUFiO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBREo7QUFBQTtBQUFBO0FBQUE7QUFBQSxxQkFESixlQUlJO0FBQUssbUJBQVMsRUFBQyxJQUFmO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLHFCQUpKLGVBS0k7QUFBSyxtQkFBUyxFQUFDLFNBQWY7QUFBQSxpQ0FDSTtBQUFHLHFCQUFTLEVBQUMseUJBQWI7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFESjtBQUFBO0FBQUE7QUFBQTtBQUFBLHFCQUxKO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQURKO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFESjtBQUFBO0FBQUE7QUFBQTtBQUFBLGVBREo7QUFlSCxDQWhCRDs7QUFrQkEsaUVBQWVBLE1BQWYiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9oZWxsby1uZXh0Ly4vY29yZS9MYXlvdXQvUHJpbWFyeUxheW91dC9IZWFkZXIuanN4PzdhMDAiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JztcclxuXHJcbmNvbnN0IEhlYWRlciA9ICgpID0+IHtcclxuICAgIHJldHVybiAoXHJcbiAgICAgICAgPGhlYWRlciBjbGFzc05hbWU9Jyc+XHJcbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY29udGFpbmVyXCI+XHJcbiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImQtZmxleCBhbGlnbi1pdGVtcy1jZW50ZXIgaC04MHB4XCI+XHJcbiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJtci1hdXRvXCI+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDxpIGNsYXNzTmFtZT0nbWF0ZXJpYWwtaWNvbnMtb3V0bGluZWQnPm1lbnU8L2k+XHJcbiAgICAgICAgICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJ0Y1wiPkxvZ288L2Rpdj5cclxuICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cIm1sLWF1dG9cIj5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPGkgY2xhc3NOYW1lPSdtYXRlcmlhbC1pY29ucy1vdXRsaW5lZCc+bW9yZV92ZXJ0PC9pPlxyXG4gICAgICAgICAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgIDwvaGVhZGVyPlxyXG4gICAgKTtcclxufTtcclxuXHJcbmV4cG9ydCBkZWZhdWx0IEhlYWRlcjsiXSwibmFtZXMiOlsiUmVhY3QiLCJIZWFkZXIiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./core/Layout/PrimaryLayout/Header.jsx\n");
-
-/***/ }),
-
-/***/ "./core/Layout/PrimaryLayout/PrimaryLayout.jsx":
-/*!*****************************************************!*\
-  !*** ./core/Layout/PrimaryLayout/PrimaryLayout.jsx ***!
-  \*****************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Header */ \"./core/Layout/PrimaryLayout/Header.jsx\");\n/* harmony import */ var _Footer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Footer */ \"./core/Layout/PrimaryLayout/Footer.jsx\");\n/* harmony import */ var _Sidebar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Sidebar */ \"./core/Layout/PrimaryLayout/Sidebar.jsx\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__);\nvar _jsxFileName = \"D:\\\\learn\\\\hello-nextjs\\\\core\\\\Layout\\\\PrimaryLayout\\\\PrimaryLayout.jsx\";\n\n\n\n\n\n\n\nconst PrimaryLayout = ({\n  children\n}) => {\n  return /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxDEV)(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__.Fragment, {\n    children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxDEV)(\"div\", {\n      className: \"d-flex flex-col min-h-100vh\",\n      children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxDEV)(_Header__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {}, void 0, false, {\n        fileName: _jsxFileName,\n        lineNumber: 10,\n        columnNumber: 17\n      }, undefined), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxDEV)(\"main\", {\n        className: \"flex-1\",\n        children: children\n      }, void 0, false, {\n        fileName: _jsxFileName,\n        lineNumber: 11,\n        columnNumber: 17\n      }, undefined), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxDEV)(_Footer__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {}, void 0, false, {\n        fileName: _jsxFileName,\n        lineNumber: 12,\n        columnNumber: 17\n      }, undefined)]\n    }, void 0, true, {\n      fileName: _jsxFileName,\n      lineNumber: 9,\n      columnNumber: 13\n    }, undefined), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxDEV)(_Sidebar__WEBPACK_IMPORTED_MODULE_3__[\"default\"], {}, void 0, false, {\n      fileName: _jsxFileName,\n      lineNumber: 14,\n      columnNumber: 13\n    }, undefined)]\n  }, void 0, true);\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (PrimaryLayout);//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb3JlL0xheW91dC9QcmltYXJ5TGF5b3V0L1ByaW1hcnlMYXlvdXQuanN4LmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7OztBQUFBO0FBQ0E7QUFDQTtBQUNBOzs7O0FBRUEsTUFBTUksYUFBYSxHQUFHLENBQUM7QUFBRUMsRUFBQUE7QUFBRixDQUFELEtBQWtCO0FBQ3BDLHNCQUNJO0FBQUEsNEJBQ0k7QUFBSyxlQUFTLEVBQUMsNkJBQWY7QUFBQSw4QkFDSSw4REFBQywrQ0FBRDtBQUFBO0FBQUE7QUFBQTtBQUFBLG1CQURKLGVBRUk7QUFBTSxpQkFBUyxFQUFDLFFBQWhCO0FBQUEsa0JBQTBCQTtBQUExQjtBQUFBO0FBQUE7QUFBQTtBQUFBLG1CQUZKLGVBR0ksOERBQUMsK0NBQUQ7QUFBQTtBQUFBO0FBQUE7QUFBQSxtQkFISjtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsaUJBREosZUFNSSw4REFBQyxnREFBRDtBQUFBO0FBQUE7QUFBQTtBQUFBLGlCQU5KO0FBQUEsa0JBREo7QUFXSCxDQVpEOztBQWNBLGlFQUFlRCxhQUFmIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vaGVsbG8tbmV4dC8uL2NvcmUvTGF5b3V0L1ByaW1hcnlMYXlvdXQvUHJpbWFyeUxheW91dC5qc3g/NWI4ZiJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnO1xyXG5pbXBvcnQgSGVhZGVyIGZyb20gJy4vSGVhZGVyJztcclxuaW1wb3J0IEZvb3RlciBmcm9tICcuL0Zvb3Rlcic7XHJcbmltcG9ydCBTaWRlYmFyIGZyb20gJy4vU2lkZWJhcic7XHJcblxyXG5jb25zdCBQcmltYXJ5TGF5b3V0ID0gKHsgY2hpbGRyZW4gfSkgPT4ge1xyXG4gICAgcmV0dXJuIChcclxuICAgICAgICA8PlxyXG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0nZC1mbGV4IGZsZXgtY29sIG1pbi1oLTEwMHZoJz5cclxuICAgICAgICAgICAgICAgIDxIZWFkZXIgLz5cclxuICAgICAgICAgICAgICAgIDxtYWluIGNsYXNzTmFtZT0nZmxleC0xJz57Y2hpbGRyZW59PC9tYWluPlxyXG4gICAgICAgICAgICAgICAgPEZvb3RlciAvPlxyXG4gICAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICAgICAgPFNpZGViYXIvPlxyXG4gICAgICAgIDwvPlxyXG5cclxuICAgICk7XHJcbn07XHJcblxyXG5leHBvcnQgZGVmYXVsdCBQcmltYXJ5TGF5b3V0OyJdLCJuYW1lcyI6WyJSZWFjdCIsIkhlYWRlciIsIkZvb3RlciIsIlNpZGViYXIiLCJQcmltYXJ5TGF5b3V0IiwiY2hpbGRyZW4iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./core/Layout/PrimaryLayout/PrimaryLayout.jsx\n");
+const url = '/api/';
+const instance = axios__WEBPACK_IMPORTED_MODULE_0__["default"].create({
+  baseURL: url,
+  // timeout: 1000,
+  // mode: "cors",
+  headers: {
+    'Access-Control-Allow-Origin': '*',
+    'Content-Type': 'application/json'
+  }
+});
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (instance);
+});
 
 /***/ }),
 
-/***/ "./core/Layout/PrimaryLayout/Sidebar.jsx":
-/*!***********************************************!*\
-  !*** ./core/Layout/PrimaryLayout/Sidebar.jsx ***!
-  \***********************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ 4866:
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__);\nvar _jsxFileName = \"D:\\\\learn\\\\hello-nextjs\\\\core\\\\Layout\\\\PrimaryLayout\\\\Sidebar.jsx\";\n\n\n\nconst Sidebar = () => {\n  return /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxDEV)(\"div\", {\n    children: \"Sidebar\"\n  }, void 0, false, {\n    fileName: _jsxFileName,\n    lineNumber: 5,\n    columnNumber: 9\n  }, undefined);\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Sidebar);//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb3JlL0xheW91dC9QcmltYXJ5TGF5b3V0L1NpZGViYXIuanN4LmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7OztBQUFBOzs7QUFFQSxNQUFNQyxPQUFPLEdBQUcsTUFBTTtBQUNsQixzQkFDSTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxlQURKO0FBS0gsQ0FORDs7QUFRQSxpRUFBZUEsT0FBZiIsInNvdXJjZXMiOlsid2VicGFjazovL2hlbGxvLW5leHQvLi9jb3JlL0xheW91dC9QcmltYXJ5TGF5b3V0L1NpZGViYXIuanN4P2IzM2QiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JztcclxuXHJcbmNvbnN0IFNpZGViYXIgPSAoKSA9PiB7XHJcbiAgICByZXR1cm4gKFxyXG4gICAgICAgIDxkaXY+XHJcbiAgICAgICAgICAgIFNpZGViYXJcclxuICAgICAgICA8L2Rpdj5cclxuICAgICk7XHJcbn07XHJcblxyXG5leHBvcnQgZGVmYXVsdCBTaWRlYmFyOyJdLCJuYW1lcyI6WyJSZWFjdCIsIlNpZGViYXIiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./core/Layout/PrimaryLayout/Sidebar.jsx\n");
-
-/***/ }),
-
-/***/ "./core/Layout/PrimaryLayout/index.jsx":
-/*!*********************************************!*\
-  !*** ./core/Layout/PrimaryLayout/index.jsx ***!
-  \*********************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
+__webpack_require__.a(module, async (__webpack_handle_async_dependencies__) => {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "PrimaryLayout": () => (/* reexport safe */ _PrimaryLayout__WEBPACK_IMPORTED_MODULE_0__["default"])
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _PrimaryLayout__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./PrimaryLayout */ "./core/Layout/PrimaryLayout/PrimaryLayout.jsx");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6689);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6022);
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_redux__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _components_term_deposit_Suggestion__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(908);
+/* harmony import */ var _components_term_deposit_Terms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(244);
+/* harmony import */ var _core_Layout_PrimaryLayout__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(2499);
+/* harmony import */ var _redux_slicer_termDepositSlicer__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(3862);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(997);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__);
+var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_components_term_deposit_Terms__WEBPACK_IMPORTED_MODULE_3__, _components_term_deposit_Suggestion__WEBPACK_IMPORTED_MODULE_2__, _redux_slicer_termDepositSlicer__WEBPACK_IMPORTED_MODULE_5__]);
+([_components_term_deposit_Terms__WEBPACK_IMPORTED_MODULE_3__, _components_term_deposit_Suggestion__WEBPACK_IMPORTED_MODULE_2__, _redux_slicer_termDepositSlicer__WEBPACK_IMPORTED_MODULE_5__] = __webpack_async_dependencies__.then ? await __webpack_async_dependencies__ : __webpack_async_dependencies__);
 
+
+
+
+
+
+
+
+
+
+function TermDeposit(props) {
+  const dispatch = (0,react_redux__WEBPACK_IMPORTED_MODULE_1__.useDispatch)();
+  const loading = (0,react_redux__WEBPACK_IMPORTED_MODULE_1__.useSelector)(state => state.termDeposit.loading);
+  const savingInfo = (0,react_redux__WEBPACK_IMPORTED_MODULE_1__.useSelector)(state => state.termDeposit.data.savingInfo);
+  console.log('savingInfo', savingInfo);
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
+    dispatch((0,_redux_slicer_termDepositSlicer__WEBPACK_IMPORTED_MODULE_5__/* .getInitSaving */ .V)());
+  }, []);
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxs)(_core_Layout_PrimaryLayout__WEBPACK_IMPORTED_MODULE_4__/* .PrimaryLayout */ .t, {
+    children: [loading && /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx("h1", {
+      children: "loading...."
+    }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx("div", {
+      className: "container",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxs)("div", {
+        className: "row gap-32px",
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxs)("div", {
+          className: "col-6",
+          children: [/*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx("h5", {
+            className: "mb-8px fs-16px",
+            children: "Amount"
+          }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx(_components_term_deposit_Suggestion__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {})]
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxs)("div", {
+          className: "col-6",
+          children: [/*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx("h5", {
+            className: "mb-8px fs-16px",
+            children: "Terms"
+          }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx(_components_term_deposit_Terms__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z, {})]
+        })]
+      })
+    })]
+  });
+}
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (TermDeposit);
+});
 
 /***/ }),
 
-/***/ "./core/apis.js":
-/*!**********************!*\
-  !*** ./core/apis.js ***!
-  \**********************/
-/***/ ((module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__) => {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ \"axios\");\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([axios__WEBPACK_IMPORTED_MODULE_0__]);\naxios__WEBPACK_IMPORTED_MODULE_0__ = (__webpack_async_dependencies__.then ? await __webpack_async_dependencies__ : __webpack_async_dependencies__)[0];\n // const url = process.env.REACT_APP_API_URL + '/api/';\n\nconst url = '/api/';\nconst instance = axios__WEBPACK_IMPORTED_MODULE_0__[\"default\"].create({\n  baseURL: url,\n  // timeout: 1000,\n  // mode: \"cors\",\n  headers: {\n    'Access-Control-Allow-Origin': '*',\n    'Content-Type': 'application/json'\n  }\n});\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (instance);\n});//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb3JlL2FwaXMuanMuanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Q0FFQTs7QUFDQSxNQUFNQyxHQUFHLEdBQUcsT0FBWjtBQUVBLE1BQU1DLFFBQVEsR0FBR0Ysb0RBQUEsQ0FBYTtBQUMxQkksRUFBQUEsT0FBTyxFQUFFSCxHQURpQjtBQUUxQjtBQUNBO0FBQ0FJLEVBQUFBLE9BQU8sRUFBRTtBQUNMLG1DQUErQixHQUQxQjtBQUVMLG9CQUFnQjtBQUZYO0FBSmlCLENBQWIsQ0FBakI7QUFVQSxpRUFBZUgsUUFBZixFIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vaGVsbG8tbmV4dC8uL2NvcmUvYXBpcy5qcz9iODQ3Il0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBheGlvcyBmcm9tIFwiYXhpb3NcIjtcclxuXHJcbi8vIGNvbnN0IHVybCA9IHByb2Nlc3MuZW52LlJFQUNUX0FQUF9BUElfVVJMICsgJy9hcGkvJztcclxuY29uc3QgdXJsID0gJy9hcGkvJztcclxuXHJcbmNvbnN0IGluc3RhbmNlID0gYXhpb3MuY3JlYXRlKHtcclxuICAgIGJhc2VVUkw6IHVybCxcclxuICAgIC8vIHRpbWVvdXQ6IDEwMDAsXHJcbiAgICAvLyBtb2RlOiBcImNvcnNcIixcclxuICAgIGhlYWRlcnM6IHtcclxuICAgICAgICAnQWNjZXNzLUNvbnRyb2wtQWxsb3ctT3JpZ2luJzogJyonLFxyXG4gICAgICAgICdDb250ZW50LVR5cGUnOiAnYXBwbGljYXRpb24vanNvbicgXHJcbiAgICB9LFxyXG59KTtcclxuXHJcbmV4cG9ydCBkZWZhdWx0IGluc3RhbmNlOyJdLCJuYW1lcyI6WyJheGlvcyIsInVybCIsImluc3RhbmNlIiwiY3JlYXRlIiwiYmFzZVVSTCIsImhlYWRlcnMiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./core/apis.js\n");
-
-/***/ }),
-
-/***/ "./pages/term-deposit/index.jsx":
-/*!**************************************!*\
-  !*** ./pages/term-deposit/index.jsx ***!
-  \**************************************/
-/***/ ((module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__) => {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-redux */ \"react-redux\");\n/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_redux__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _components_term_deposit_Suggestion__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/term-deposit/Suggestion */ \"./components/term-deposit/Suggestion.jsx\");\n/* harmony import */ var _components_term_deposit_Terms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/term-deposit/Terms */ \"./components/term-deposit/Terms.jsx\");\n/* harmony import */ var _core_Layout_PrimaryLayout__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../core/Layout/PrimaryLayout */ \"./core/Layout/PrimaryLayout/index.jsx\");\n/* harmony import */ var _redux_slicer_termDepositSlicer__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../redux/slicer/termDepositSlicer */ \"./redux/slicer/termDepositSlicer.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__);\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_components_term_deposit_Terms__WEBPACK_IMPORTED_MODULE_3__, _components_term_deposit_Suggestion__WEBPACK_IMPORTED_MODULE_2__, _redux_slicer_termDepositSlicer__WEBPACK_IMPORTED_MODULE_5__]);\n([_components_term_deposit_Terms__WEBPACK_IMPORTED_MODULE_3__, _components_term_deposit_Suggestion__WEBPACK_IMPORTED_MODULE_2__, _redux_slicer_termDepositSlicer__WEBPACK_IMPORTED_MODULE_5__] = __webpack_async_dependencies__.then ? await __webpack_async_dependencies__ : __webpack_async_dependencies__);\nvar _jsxFileName = \"D:\\\\learn\\\\hello-nextjs\\\\pages\\\\term-deposit\\\\index.jsx\";\n\n\n\n\n\n\n\n\n\nfunction TermDeposit(props) {\n  const dispatch = (0,react_redux__WEBPACK_IMPORTED_MODULE_1__.useDispatch)();\n  const loading = (0,react_redux__WEBPACK_IMPORTED_MODULE_1__.useSelector)(state => state.termDeposit.loading);\n  const savingInfo = (0,react_redux__WEBPACK_IMPORTED_MODULE_1__.useSelector)(state => state.termDeposit.data.savingInfo);\n  console.log('savingInfo', savingInfo);\n  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {\n    dispatch((0,_redux_slicer_termDepositSlicer__WEBPACK_IMPORTED_MODULE_5__.getInitSaving)());\n  }, []);\n  return /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxDEV)(_core_Layout_PrimaryLayout__WEBPACK_IMPORTED_MODULE_4__.PrimaryLayout, {\n    children: [loading && /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxDEV)(\"h1\", {\n      children: \"loading....\"\n    }, void 0, false, {\n      fileName: _jsxFileName,\n      lineNumber: 20,\n      columnNumber: 25\n    }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxDEV)(\"div\", {\n      className: \"container\",\n      children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxDEV)(\"div\", {\n        className: \"row gap-32px\",\n        children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxDEV)(\"div\", {\n          className: \"col-6\",\n          children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxDEV)(\"h5\", {\n            className: \"mb-8px fs-16px\",\n            children: \"Amount\"\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 24,\n            columnNumber: 25\n          }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxDEV)(_components_term_deposit_Suggestion__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {}, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 25,\n            columnNumber: 25\n          }, this)]\n        }, void 0, true, {\n          fileName: _jsxFileName,\n          lineNumber: 23,\n          columnNumber: 21\n        }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxDEV)(\"div\", {\n          className: \"col-6\",\n          children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxDEV)(\"h5\", {\n            className: \"mb-8px fs-16px\",\n            children: \"Terms\"\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 28,\n            columnNumber: 25\n          }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxDEV)(_components_term_deposit_Terms__WEBPACK_IMPORTED_MODULE_3__[\"default\"], {}, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 29,\n            columnNumber: 25\n          }, this)]\n        }, void 0, true, {\n          fileName: _jsxFileName,\n          lineNumber: 27,\n          columnNumber: 21\n        }, this)]\n      }, void 0, true, {\n        fileName: _jsxFileName,\n        lineNumber: 22,\n        columnNumber: 17\n      }, this)\n    }, void 0, false, {\n      fileName: _jsxFileName,\n      lineNumber: 21,\n      columnNumber: 13\n    }, this)]\n  }, void 0, true, {\n    fileName: _jsxFileName,\n    lineNumber: 19,\n    columnNumber: 9\n  }, this);\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (TermDeposit);\n});//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy90ZXJtLWRlcG9zaXQvaW5kZXguanN4LmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQUFBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBOzs7QUFFQSxTQUFTUyxXQUFULENBQXFCQyxLQUFyQixFQUE0QjtBQUN4QixRQUFNQyxRQUFRLEdBQUdSLHdEQUFXLEVBQTVCO0FBQ0EsUUFBTVMsT0FBTyxHQUFHUix3REFBVyxDQUFDUyxLQUFLLElBQUlBLEtBQUssQ0FBQ0MsV0FBTixDQUFrQkYsT0FBNUIsQ0FBM0I7QUFDQSxRQUFNRyxVQUFVLEdBQUdYLHdEQUFXLENBQUNTLEtBQUssSUFBSUEsS0FBSyxDQUFDQyxXQUFOLENBQWtCRSxJQUFsQixDQUF1QkQsVUFBakMsQ0FBOUI7QUFDQUUsRUFBQUEsT0FBTyxDQUFDQyxHQUFSLENBQVksWUFBWixFQUEwQkgsVUFBMUI7QUFFQWIsRUFBQUEsZ0RBQVMsQ0FBQyxNQUFNO0FBQ1pTLElBQUFBLFFBQVEsQ0FBQ0gsOEVBQWEsRUFBZCxDQUFSO0FBQ0gsR0FGUSxFQUVQLEVBRk8sQ0FBVDtBQUdBLHNCQUNJLDhEQUFDLHFFQUFEO0FBQUEsZUFDS0ksT0FBTyxpQkFBSTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxZQURoQixlQUVJO0FBQUssZUFBUyxFQUFDLFdBQWY7QUFBQSw2QkFDSTtBQUFLLGlCQUFTLEVBQUMsY0FBZjtBQUFBLGdDQUNJO0FBQUssbUJBQVMsRUFBQyxPQUFmO0FBQUEsa0NBQ0k7QUFBSSxxQkFBUyxFQUFDLGdCQUFkO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLGtCQURKLGVBRUksOERBQUMsMkVBQUQ7QUFBQTtBQUFBO0FBQUE7QUFBQSxrQkFGSjtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsZ0JBREosZUFLSTtBQUFLLG1CQUFTLEVBQUMsT0FBZjtBQUFBLGtDQUNJO0FBQUkscUJBQVMsRUFBQyxnQkFBZDtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxrQkFESixlQUVJLDhEQUFDLHNFQUFEO0FBQUE7QUFBQTtBQUFBO0FBQUEsa0JBRko7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLGdCQUxKO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQURKO0FBQUE7QUFBQTtBQUFBO0FBQUEsWUFGSjtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsVUFESjtBQW1CSDs7QUFFRCxpRUFBZUgsV0FBZixFIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vaGVsbG8tbmV4dC8uL3BhZ2VzL3Rlcm0tZGVwb3NpdC9pbmRleC5qc3g/MzBlYyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QsIHsgdXNlU3RhdGUgfSBmcm9tICdyZWFjdCc7XHJcbmltcG9ydCB7IHVzZUVmZmVjdCB9IGZyb20gJ3JlYWN0JztcclxuaW1wb3J0IHsgdXNlRGlzcGF0Y2gsIHVzZVNlbGVjdG9yIH0gZnJvbSAncmVhY3QtcmVkdXgnO1xyXG5pbXBvcnQgU3VnZ2VzdGlvbiBmcm9tICcuLi8uLi9jb21wb25lbnRzL3Rlcm0tZGVwb3NpdC9TdWdnZXN0aW9uJztcclxuaW1wb3J0IFRlcm1zIGZyb20gJy4uLy4uL2NvbXBvbmVudHMvdGVybS1kZXBvc2l0L1Rlcm1zJztcclxuaW1wb3J0IHsgUHJpbWFyeUxheW91dCB9IGZyb20gJy4uLy4uL2NvcmUvTGF5b3V0L1ByaW1hcnlMYXlvdXQnO1xyXG5pbXBvcnQgeyBnZXRJbml0U2F2aW5nIH0gZnJvbSAnLi4vLi4vcmVkdXgvc2xpY2VyL3Rlcm1EZXBvc2l0U2xpY2VyJztcclxuXHJcbmZ1bmN0aW9uIFRlcm1EZXBvc2l0KHByb3BzKSB7XHJcbiAgICBjb25zdCBkaXNwYXRjaCA9IHVzZURpc3BhdGNoKCk7XHJcbiAgICBjb25zdCBsb2FkaW5nID0gdXNlU2VsZWN0b3Ioc3RhdGUgPT4gc3RhdGUudGVybURlcG9zaXQubG9hZGluZyk7XHJcbiAgICBjb25zdCBzYXZpbmdJbmZvID0gdXNlU2VsZWN0b3Ioc3RhdGUgPT4gc3RhdGUudGVybURlcG9zaXQuZGF0YS5zYXZpbmdJbmZvKVxyXG4gICAgY29uc29sZS5sb2coJ3NhdmluZ0luZm8nLCBzYXZpbmdJbmZvKVxyXG5cclxuICAgIHVzZUVmZmVjdCgoKSA9PiB7XHJcbiAgICAgICAgZGlzcGF0Y2goZ2V0SW5pdFNhdmluZygpKVxyXG4gICAgfSxbXSlcclxuICAgIHJldHVybiAoXHJcbiAgICAgICAgPFByaW1hcnlMYXlvdXQ+XHJcbiAgICAgICAgICAgIHtsb2FkaW5nICYmIDxoMT5sb2FkaW5nLi4uLjwvaDE+fVxyXG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0nY29udGFpbmVyJz5cclxuICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwicm93IGdhcC0zMnB4XCI+XHJcbiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJjb2wtNlwiPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8aDUgY2xhc3NOYW1lPSdtYi04cHggZnMtMTZweCc+QW1vdW50PC9oNT5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPFN1Z2dlc3Rpb24gLz5cclxuICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbC02XCI+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDxoNSBjbGFzc05hbWU9J21iLThweCBmcy0xNnB4Jz5UZXJtczwvaDU+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDxUZXJtcyAvPlxyXG4gICAgICAgICAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgICAgICAgPC9kaXY+XHJcblxyXG4gICAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICA8L1ByaW1hcnlMYXlvdXQ+XHJcblxyXG4gICAgKTtcclxufVxyXG5cclxuZXhwb3J0IGRlZmF1bHQgVGVybURlcG9zaXQ7Il0sIm5hbWVzIjpbIlJlYWN0IiwidXNlU3RhdGUiLCJ1c2VFZmZlY3QiLCJ1c2VEaXNwYXRjaCIsInVzZVNlbGVjdG9yIiwiU3VnZ2VzdGlvbiIsIlRlcm1zIiwiUHJpbWFyeUxheW91dCIsImdldEluaXRTYXZpbmciLCJUZXJtRGVwb3NpdCIsInByb3BzIiwiZGlzcGF0Y2giLCJsb2FkaW5nIiwic3RhdGUiLCJ0ZXJtRGVwb3NpdCIsInNhdmluZ0luZm8iLCJkYXRhIiwiY29uc29sZSIsImxvZyJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./pages/term-deposit/index.jsx\n");
-
-/***/ }),
-
-/***/ "./redux/slicer/termDepositSlicer.js":
-/*!*******************************************!*\
-  !*** ./redux/slicer/termDepositSlicer.js ***!
-  \*******************************************/
-/***/ ((module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__) => {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"getInitSaving\": () => (/* binding */ getInitSaving),\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _reduxjs_toolkit__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @reduxjs/toolkit */ \"@reduxjs/toolkit\");\n/* harmony import */ var _reduxjs_toolkit__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_reduxjs_toolkit__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _core_apis__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../core/apis */ \"./core/apis.js\");\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_core_apis__WEBPACK_IMPORTED_MODULE_1__]);\n_core_apis__WEBPACK_IMPORTED_MODULE_1__ = (__webpack_async_dependencies__.then ? await __webpack_async_dependencies__ : __webpack_async_dependencies__)[0];\n\n\nconst name = 'saving';\nconst initialState = {\n  loading: false,\n  error: '',\n  data: {\n    customerInfo: {},\n    savingInfo: {\n      amount: \"100\",\n      term: '6M'\n    }\n  }\n};\nconst TermDepositSlicer = (0,_reduxjs_toolkit__WEBPACK_IMPORTED_MODULE_0__.createSlice)({\n  name,\n  initialState,\n  reducers: {\n    updateAmount: (state, action) => {\n      state.data.savingInfo.amount = action.payload;\n    },\n    updateTerm: (state, action) => {\n      console.log(action.payload);\n      state.data.savingInfo.term = action.payload;\n    }\n  },\n  extraReducers: builder => {\n    builder.addCase(getInitSaving.pending, (state, action) => {\n      console.log('pending');\n      state.loading = true;\n    }).addCase(getInitSaving.fulfilled, (state, action) => {\n      console.log('fulfilled');\n      state.loading = false;\n      console.log('action >>>>', action.payload);\n    }).addCase(getInitSaving.rejected, (state, action) => {\n      console.log('rejected');\n      state.loading = false;\n    });\n  }\n});\nconst getInitSaving = (0,_reduxjs_toolkit__WEBPACK_IMPORTED_MODULE_0__.createAsyncThunk)(`${name}/getInitSaving`, async request => {\n  const {\n    data\n  } = await _core_apis__WEBPACK_IMPORTED_MODULE_1__[\"default\"].post('getInitSaving');\n  return data;\n});\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (TermDepositSlicer);\n});//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9yZWR1eC9zbGljZXIvdGVybURlcG9zaXRTbGljZXIuanMuanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7QUFBQTtBQUNBO0FBRUEsTUFBTUcsSUFBSSxHQUFHLFFBQWI7QUFDQSxNQUFNQyxZQUFZLEdBQUc7QUFDakJDLEVBQUFBLE9BQU8sRUFBRSxLQURRO0FBRWpCQyxFQUFBQSxLQUFLLEVBQUUsRUFGVTtBQUdqQkMsRUFBQUEsSUFBSSxFQUFFO0FBQ0ZDLElBQUFBLFlBQVksRUFBRSxFQURaO0FBRUZDLElBQUFBLFVBQVUsRUFBRTtBQUNSQyxNQUFBQSxNQUFNLEVBQUUsS0FEQTtBQUVSQyxNQUFBQSxJQUFJLEVBQUU7QUFGRTtBQUZWO0FBSFcsQ0FBckI7QUFZQSxNQUFNQyxpQkFBaUIsR0FBR1gsNkRBQVcsQ0FBQztBQUNsQ0UsRUFBQUEsSUFEa0M7QUFFbENDLEVBQUFBLFlBRmtDO0FBR2xDUyxFQUFBQSxRQUFRLEVBQUU7QUFDTkMsSUFBQUEsWUFBWSxFQUFFLENBQUNDLEtBQUQsRUFBUUMsTUFBUixLQUFtQjtBQUM3QkQsTUFBQUEsS0FBSyxDQUFDUixJQUFOLENBQVdFLFVBQVgsQ0FBc0JDLE1BQXRCLEdBQStCTSxNQUFNLENBQUNDLE9BQXRDO0FBQ0gsS0FISztBQUlOQyxJQUFBQSxVQUFVLEVBQUUsQ0FBQ0gsS0FBRCxFQUFRQyxNQUFSLEtBQW1CO0FBQzNCRyxNQUFBQSxPQUFPLENBQUNDLEdBQVIsQ0FBWUosTUFBTSxDQUFDQyxPQUFuQjtBQUNBRixNQUFBQSxLQUFLLENBQUNSLElBQU4sQ0FBV0UsVUFBWCxDQUFzQkUsSUFBdEIsR0FBNkJLLE1BQU0sQ0FBQ0MsT0FBcEM7QUFDSDtBQVBLLEdBSHdCO0FBWWxDSSxFQUFBQSxhQUFhLEVBQUdDLE9BQUQsSUFBYTtBQUN4QkEsSUFBQUEsT0FBTyxDQUNGQyxPQURMLENBQ2FDLGFBQWEsQ0FBQ0MsT0FEM0IsRUFDb0MsQ0FBQ1YsS0FBRCxFQUFRQyxNQUFSLEtBQW1CO0FBQy9DRyxNQUFBQSxPQUFPLENBQUNDLEdBQVIsQ0FBWSxTQUFaO0FBQ0FMLE1BQUFBLEtBQUssQ0FBQ1YsT0FBTixHQUFnQixJQUFoQjtBQUNILEtBSkwsRUFLS2tCLE9BTEwsQ0FLYUMsYUFBYSxDQUFDRSxTQUwzQixFQUtzQyxDQUFDWCxLQUFELEVBQVFDLE1BQVIsS0FBbUI7QUFDakRHLE1BQUFBLE9BQU8sQ0FBQ0MsR0FBUixDQUFZLFdBQVo7QUFDQUwsTUFBQUEsS0FBSyxDQUFDVixPQUFOLEdBQWdCLEtBQWhCO0FBQ0FjLE1BQUFBLE9BQU8sQ0FBQ0MsR0FBUixDQUFZLGFBQVosRUFBMkJKLE1BQU0sQ0FBQ0MsT0FBbEM7QUFDSCxLQVRMLEVBVUtNLE9BVkwsQ0FVYUMsYUFBYSxDQUFDRyxRQVYzQixFQVVxQyxDQUFDWixLQUFELEVBQVFDLE1BQVIsS0FBbUI7QUFDaERHLE1BQUFBLE9BQU8sQ0FBQ0MsR0FBUixDQUFZLFVBQVo7QUFDQUwsTUFBQUEsS0FBSyxDQUFDVixPQUFOLEdBQWdCLEtBQWhCO0FBQ0gsS0FiTDtBQWNIO0FBM0JpQyxDQUFELENBQXJDO0FBK0JPLE1BQU1tQixhQUFhLEdBQUd4QixrRUFBZ0IsQ0FBRSxHQUFFRyxJQUFLLGdCQUFULEVBQTBCLE1BQU95QixPQUFQLElBQW1CO0FBQ3RGLFFBQU07QUFBRXJCLElBQUFBO0FBQUYsTUFBVyxNQUFNTCx1REFBQSxDQUFTLGVBQVQsQ0FBdkI7QUFDQSxTQUFPSyxJQUFQO0FBQ0gsQ0FINEMsQ0FBdEM7QUFLUCxpRUFBZUssaUJBQWYsRSIsInNvdXJjZXMiOlsid2VicGFjazovL2hlbGxvLW5leHQvLi9yZWR1eC9zbGljZXIvdGVybURlcG9zaXRTbGljZXIuanM/NGQ1YSJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBjcmVhdGVBc3luY1RodW5rLCBjcmVhdGVTbGljZSB9IGZyb20gXCJAcmVkdXhqcy90b29sa2l0XCI7XHJcbmltcG9ydCBhcGkgZnJvbSAnLi4vLi4vY29yZS9hcGlzJztcclxuXHJcbmNvbnN0IG5hbWUgPSAnc2F2aW5nJztcclxuY29uc3QgaW5pdGlhbFN0YXRlID0ge1xyXG4gICAgbG9hZGluZzogZmFsc2UsXHJcbiAgICBlcnJvcjogJycsXHJcbiAgICBkYXRhOiB7XHJcbiAgICAgICAgY3VzdG9tZXJJbmZvOiB7fSxcclxuICAgICAgICBzYXZpbmdJbmZvOiB7XHJcbiAgICAgICAgICAgIGFtb3VudDogXCIxMDBcIixcclxuICAgICAgICAgICAgdGVybTogJzZNJyxcclxuICAgICAgICB9XHJcbiAgICB9XHJcbn1cclxuXHJcbmNvbnN0IFRlcm1EZXBvc2l0U2xpY2VyID0gY3JlYXRlU2xpY2Uoe1xyXG4gICAgbmFtZSxcclxuICAgIGluaXRpYWxTdGF0ZSxcclxuICAgIHJlZHVjZXJzOiB7XHJcbiAgICAgICAgdXBkYXRlQW1vdW50OiAoc3RhdGUsIGFjdGlvbikgPT4ge1xyXG4gICAgICAgICAgICBzdGF0ZS5kYXRhLnNhdmluZ0luZm8uYW1vdW50ID0gYWN0aW9uLnBheWxvYWQ7XHJcbiAgICAgICAgfSxcclxuICAgICAgICB1cGRhdGVUZXJtOiAoc3RhdGUsIGFjdGlvbikgPT4ge1xyXG4gICAgICAgICAgICBjb25zb2xlLmxvZyhhY3Rpb24ucGF5bG9hZCk7XHJcbiAgICAgICAgICAgIHN0YXRlLmRhdGEuc2F2aW5nSW5mby50ZXJtID0gYWN0aW9uLnBheWxvYWQ7XHJcbiAgICAgICAgfSxcclxuICAgIH0sXHJcbiAgICBleHRyYVJlZHVjZXJzOiAoYnVpbGRlcikgPT4ge1xyXG4gICAgICAgIGJ1aWxkZXJcclxuICAgICAgICAgICAgLmFkZENhc2UoZ2V0SW5pdFNhdmluZy5wZW5kaW5nLCAoc3RhdGUsIGFjdGlvbikgPT4ge1xyXG4gICAgICAgICAgICAgICAgY29uc29sZS5sb2coJ3BlbmRpbmcnKTtcclxuICAgICAgICAgICAgICAgIHN0YXRlLmxvYWRpbmcgPSB0cnVlO1xyXG4gICAgICAgICAgICB9KVxyXG4gICAgICAgICAgICAuYWRkQ2FzZShnZXRJbml0U2F2aW5nLmZ1bGZpbGxlZCwgKHN0YXRlLCBhY3Rpb24pID0+IHtcclxuICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKCdmdWxmaWxsZWQnKTtcclxuICAgICAgICAgICAgICAgIHN0YXRlLmxvYWRpbmcgPSBmYWxzZTtcclxuICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKCdhY3Rpb24gPj4+PicsIGFjdGlvbi5wYXlsb2FkKTtcclxuICAgICAgICAgICAgfSlcclxuICAgICAgICAgICAgLmFkZENhc2UoZ2V0SW5pdFNhdmluZy5yZWplY3RlZCwgKHN0YXRlLCBhY3Rpb24pID0+IHtcclxuICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKCdyZWplY3RlZCcpO1xyXG4gICAgICAgICAgICAgICAgc3RhdGUubG9hZGluZyA9IGZhbHNlO1xyXG4gICAgICAgICAgICB9KVxyXG4gICAgfVxyXG5cclxufSlcclxuXHJcbmV4cG9ydCBjb25zdCBnZXRJbml0U2F2aW5nID0gY3JlYXRlQXN5bmNUaHVuayhgJHtuYW1lfS9nZXRJbml0U2F2aW5nYCwgYXN5bmMgKHJlcXVlc3QpID0+IHtcclxuICAgIGNvbnN0IHsgZGF0YSB9ID0gYXdhaXQgYXBpLnBvc3QoJ2dldEluaXRTYXZpbmcnKTtcclxuICAgIHJldHVybiBkYXRhO1xyXG59KVxyXG5cclxuZXhwb3J0IGRlZmF1bHQgVGVybURlcG9zaXRTbGljZXI7Il0sIm5hbWVzIjpbImNyZWF0ZUFzeW5jVGh1bmsiLCJjcmVhdGVTbGljZSIsImFwaSIsIm5hbWUiLCJpbml0aWFsU3RhdGUiLCJsb2FkaW5nIiwiZXJyb3IiLCJkYXRhIiwiY3VzdG9tZXJJbmZvIiwic2F2aW5nSW5mbyIsImFtb3VudCIsInRlcm0iLCJUZXJtRGVwb3NpdFNsaWNlciIsInJlZHVjZXJzIiwidXBkYXRlQW1vdW50Iiwic3RhdGUiLCJhY3Rpb24iLCJwYXlsb2FkIiwidXBkYXRlVGVybSIsImNvbnNvbGUiLCJsb2ciLCJleHRyYVJlZHVjZXJzIiwiYnVpbGRlciIsImFkZENhc2UiLCJnZXRJbml0U2F2aW5nIiwicGVuZGluZyIsImZ1bGZpbGxlZCIsInJlamVjdGVkIiwicmVxdWVzdCIsInBvc3QiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./redux/slicer/termDepositSlicer.js\n");
-
-/***/ }),
-
-/***/ "@reduxjs/toolkit":
-/*!***********************************!*\
-  !*** external "@reduxjs/toolkit" ***!
-  \***********************************/
+/***/ 5184:
 /***/ ((module) => {
 
 module.exports = require("@reduxjs/toolkit");
 
 /***/ }),
 
-/***/ "react":
-/*!************************!*\
-  !*** external "react" ***!
-  \************************/
+/***/ 6689:
 /***/ ((module) => {
 
 module.exports = require("react");
 
 /***/ }),
 
-/***/ "react-redux":
-/*!******************************!*\
-  !*** external "react-redux" ***!
-  \******************************/
+/***/ 6022:
 /***/ ((module) => {
 
 module.exports = require("react-redux");
 
 /***/ }),
 
-/***/ "react/jsx-dev-runtime":
-/*!****************************************!*\
-  !*** external "react/jsx-dev-runtime" ***!
-  \****************************************/
+/***/ 997:
 /***/ ((module) => {
 
-module.exports = require("react/jsx-dev-runtime");
+module.exports = require("react/jsx-runtime");
 
 /***/ }),
 
-/***/ "axios":
-/*!************************!*\
-  !*** external "axios" ***!
-  \************************/
+/***/ 9648:
 /***/ ((module) => {
 
 module.exports = import("axios");;
@@ -175,7 +273,7 @@ module.exports = import("axios");;
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__("./pages/term-deposit/index.jsx"));
+var __webpack_exports__ = __webpack_require__.X(0, [499,862], () => (__webpack_exec__(4866)));
 module.exports = __webpack_exports__;
 
 })();
